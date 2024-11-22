@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تودو لیست نئومورفیسم</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">لیست کارها</h1>
+    <div class="todo-input">
+      <input type="text" id="todo-text" placeholder="عنوان کار..." />
+      <select id="priority">
+        <option value="important">مهم و ضروری</option>
+        <option value="not-important">غیر ضروری</option>
+      </select>
+      <input type="date" id="due-date" />
+      <button id="add-todo">افزودن</button>
+    </div>
+    <ul class="todo-list" id="todo-list"></ul>
+    <button id="clear-all" class="clear-btn">حذف همه</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
